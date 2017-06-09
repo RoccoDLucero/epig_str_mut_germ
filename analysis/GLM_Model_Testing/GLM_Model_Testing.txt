@@ -1,0 +1,9 @@
+This folder will be used to test the predictive power of various factors such as genomic annotations on structural
+mutability in germline genomes based on e.g. 1000 Genomes structural variants or structural varian calls from other databases.
+
+
+May 16 2016: 
+In this folder I will reproduce my own earlier results within the framework of my new project organization scheme. 
+ConfoundersGLM.R will produce a plot of the benefit of including various factors described in Harris et. al 2013, or PRDM14 to the analysis of structural mutability based on 100Kb genomic tiles, and the count data from Jian Li et. al 2012. What we see is that DNA methylation in the sperm methylomes analyzed is the best predictor of structural mutability and that PRDM14 ChIP-seq peaks from ES cells are only somewhat predictive of structural mutability in the human germline.
+
+

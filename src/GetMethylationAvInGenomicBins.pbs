@@ -1,0 +1,18 @@
+#!/bin/bash
+#PBS -M rdlucero@bcm.edu
+#PBS -m abe
+
+#PBS -l walltime=180:00:00,vmem=4GB
+#PBS -l nodes=1:ppn=8
+ 
+# set the temporary file location
+
+ 
+# go to the job submission directory; you can change this to your project directory
+cd /home/rdlucero/WORKSPACE/Epigen-Struct-Mut/MethylationWindows/
+ 
+# load the R module; change the version if needed
+module load R/3.2 
+ 
+# run R
+Rscript GetMethAvBins_inmem.R
